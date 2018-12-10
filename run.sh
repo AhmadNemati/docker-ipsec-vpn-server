@@ -216,6 +216,8 @@ proxyarp
 lcp-echo-failure 4
 lcp-echo-interval 30
 connect-delay 5000
+plugin /usr/lib/pppd/2.4.7/radius.so
+plugin /usr/lib/pppd/2.4.7/radattr.so
 EOF
 
 # Create VPN credentials
