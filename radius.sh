@@ -2,7 +2,7 @@
 
 apt-get update
 apt-get install   -y unzip build-essential  wget libgmp3-dev bison flex
-wget https://github.com/AhmadNemati/freeradius-client/archive/master.zip
+wget https://github.com/FreeRADIUS/freeradius-client/archive/master.zip
 unzip master.zip
 cd freeradius-client-master
 ./configure --prefix=/
